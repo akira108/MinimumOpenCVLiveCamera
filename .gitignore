@@ -16,6 +16,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+MinimumOpenCVLiveCamera/opencv2.framework/*
+
 # CocoaPod
 Pods/*
 Podfile.lock
@@ -24,3 +26,4 @@ Podfile.lock
 *.swp
 !.gitkeep
 .DS_Store
+
