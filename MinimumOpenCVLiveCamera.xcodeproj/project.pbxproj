@@ -34,13 +34,13 @@
 		E979E7FE1BEB66DA0061BC68 /* FrameProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrameProcessor.h; path = MinimumOpenCVLiveCamera/FrameProcessor.h; sourceTree = SOURCE_ROOT; };
 		E979E7FF1BEB66DA0061BC68 /* FrameProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FrameProcessor.mm; path = MinimumOpenCVLiveCamera/FrameProcessor.mm; sourceTree = SOURCE_ROOT; };
 		E979E8001BEB66DA0061BC68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MinimumOpenCVLiveCamera/Info.plist; sourceTree = SOURCE_ROOT; };
-		E979E8011BEB66DA0061BC68 /* MinimumOpenCVLiveCamera-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MinimumOpenCVLiveCamera-Bridging-Header.h"; path = "MinimumOpenCVLiveCamera/MinimumOpenCVLiveCamera-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		E979E8021BEB66DA0061BC68 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = MinimumOpenCVLiveCamera/opencv2.framework; sourceTree = SOURCE_ROOT; };
 		E979E8031BEB66DA0061BC68 /* VideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoSource.h; path = MinimumOpenCVLiveCamera/VideoSource.h; sourceTree = SOURCE_ROOT; };
 		E979E8041BEB66DA0061BC68 /* VideoSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VideoSource.mm; path = MinimumOpenCVLiveCamera/VideoSource.mm; sourceTree = SOURCE_ROOT; };
 		E979E8051BEB66DA0061BC68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MinimumOpenCVLiveCamera/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		E979E8061BEB66DA0061BC68 /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wrapper.h; path = MinimumOpenCVLiveCamera/Wrapper.h; sourceTree = SOURCE_ROOT; };
 		E979E8071BEB66DA0061BC68 /* Wrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Wrapper.mm; path = MinimumOpenCVLiveCamera/Wrapper.mm; sourceTree = SOURCE_ROOT; };
+		E9AE913E1BFDC25700C25B99 /* MinimumOpenCVLiveCamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MinimumOpenCVLiveCamera-Bridging-Header.h"; path = "MinimumOpenCVLiveCamera/MinimumOpenCVLiveCamera-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +86,13 @@
 				E979E7FE1BEB66DA0061BC68 /* FrameProcessor.h */,
 				E979E7FF1BEB66DA0061BC68 /* FrameProcessor.mm */,
 				E979E8001BEB66DA0061BC68 /* Info.plist */,
-				E979E8011BEB66DA0061BC68 /* MinimumOpenCVLiveCamera-Bridging-Header.h */,
 				E979E8021BEB66DA0061BC68 /* opencv2.framework */,
 				E979E8031BEB66DA0061BC68 /* VideoSource.h */,
 				E979E8041BEB66DA0061BC68 /* VideoSource.mm */,
 				E979E8051BEB66DA0061BC68 /* ViewController.swift */,
 				E979E8061BEB66DA0061BC68 /* Wrapper.h */,
 				E979E8071BEB66DA0061BC68 /* Wrapper.mm */,
+				E9AE913E1BFDC25700C25B99 /* MinimumOpenCVLiveCamera-Bridging-Header.h */,
 			);
 			name = MinimumOpenCVLiveCamera;
 			path = DMAR;
@@ -304,7 +304,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akira108.MinimumOpenCVLiveCamera;
 				PRODUCT_NAME = MinimumOpenCVLiveCamera;
-				SWIFT_OBJC_BRIDGING_HEADER = "MinimumOpenCVLiveCamera-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MinimumOpenCVLiveCamera/MinimumOpenCVLiveCamera-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -322,7 +322,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akira108.MinimumOpenCVLiveCamera;
 				PRODUCT_NAME = MinimumOpenCVLiveCamera;
-				SWIFT_OBJC_BRIDGING_HEADER = "MinimumOpenCVLiveCamera-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MinimumOpenCVLiveCamera/MinimumOpenCVLiveCamera-Bridging-Header.h";
 			};
 			name = Release;
 		};
